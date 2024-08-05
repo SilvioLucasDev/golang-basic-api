@@ -8,7 +8,7 @@ func RegisterRoutes(router *gin.Engine) {
 		tasks.GET("/", GetAllTasks)
 		tasks.GET("/:id", GetTaskByID)
 		tasks.POST("/", CreateTask)
-		tasks.DELETE("/:id", DeleteTask)
 		tasks.PATCH("/:id", UpdateTask)
+		tasks.DELETE("/:id", DeleteTask)
 	}
 }
