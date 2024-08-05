@@ -1,3 +1,3 @@
 # golang-basic-api
 
-API básica em Golang com Gin para estudos.
+API simples em Golang com Gin para estudos.
